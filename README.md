@@ -34,7 +34,7 @@ cd ..
 docker run --name jupyterlab -p 8888:8888 -v $(pwd):/app jupyterlab
 
 # Remove containers
-docker rm -f streamlit-app
+docker rm -f ftowml-web-app
 docker rm -f jupyterlab
 ```
 
