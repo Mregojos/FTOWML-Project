@@ -1,6 +1,4 @@
-import streamlit as st
-
-st.title("It's working!")# main.py
+# main.py
 
 #-----------------Libraries------------------------#
 import streamlit as st
