@@ -38,6 +38,8 @@ docker rm -f ftowml-web-app
 docker rm -f jupyterlab
 ```
 
+![FTOWML]()
+
 ## Reference
 
 [FRIENDS Data]()
