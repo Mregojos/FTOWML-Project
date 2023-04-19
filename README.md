@@ -2,7 +2,7 @@
 
 ## Objective
 * Analyze and visualize FRIENDS Series
-* Classify who sys the line among FRIENDS main character
+* Classify who says the line among FRIENDS main character
 * Build and deploy a web app
 
 ## Data
