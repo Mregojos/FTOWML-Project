@@ -38,7 +38,7 @@ docker rm -f ftowml-web-app
 docker rm -f jupyterlab
 ```
 
-![FTOWML]()
+![FTOWML](https://github.com/Mregojos/FTOWML-Project/blob/main/images/FTOWML.png)
 
 ## Reference
 
