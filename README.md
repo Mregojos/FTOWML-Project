@@ -28,6 +28,14 @@ docker run --name ftowml-web-app -p 8501:8501 ftowml-web-app
 docker build -t ftowml-web-app .
 docker run --name ftowml-web-app -p 8501:8501 -v $(pwd):/app ftowml-web-app
 
+cd jupyterlab-docker
+docker build -t jupyterlab .
+cd ..
+docker run --name jupyterlab -p 8888:8888 -v $(pwd):/app jupyterlab
+
+# Remove containers
+docker rm -f streamlit-app
+docker rm -f jupyterlab
 ```
 
 ## Reference
